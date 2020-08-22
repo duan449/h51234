@@ -7,13 +7,13 @@ router.get('/', function(req, res, next) {
 });
 //注册功能
 router.post('/api/regist', function(req, res, next) {
-  var username = this.body.username;
-  var psw = this.body.psw;
+  var username = req.body.username;
+  var psw = req.body.psw;
   var result = {
     code : 1,
     message : "注册成功"
   }
-  if(username&&psw) {
+  if(username && psw) {
     res.json(result);
   } else {
     result.code = -110;
@@ -22,3 +22,4 @@ router.post('/api/regist', function(req, res, next) {
   }
 });
 module.exports = router;
+
