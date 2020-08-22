@@ -13,7 +13,7 @@
         <div id="button">登录</div>
     </div>
     
-    <p>COPYRIGHT © 2020 - 普道（上海）信息科技有限公司 沪ICP备10005376号-1 </p>
+    <p> © 2020 - 普道（上海）信息科技有限公司 沪ICP备10005376号-1 </p>
 
     <router-view/>
   </div>
