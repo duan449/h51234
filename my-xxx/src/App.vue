@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <img src="./assets/da.png">
     <router-view/>
+      <router-link  to="/shuimeiren">税美人</router-link>
   </div>
 </template>
 
@@ -18,11 +18,12 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
-img {
-  width: 143px;
-  height: 38px;
-  margin-top: 100px;
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #f8f8f8;
 }
 </style>
